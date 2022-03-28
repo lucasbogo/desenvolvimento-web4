@@ -1,5 +1,5 @@
 
-package br.com.cineclube.controller;
+package br.com.cineclube.conversor;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Service;
