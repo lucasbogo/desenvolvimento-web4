@@ -1,10 +1,6 @@
-package br.com.cineclube.controller;
+package br.com.cineclube.config.util;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 import br.com.cineclube.model.Genre;
 
 public class WrapperGenre {

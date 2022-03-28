@@ -1,4 +1,4 @@
-package br.com.cineclube.controller;
+package br.com.cineclube.config.util;
 
 import java.util.Comparator;
 import java.util.List;

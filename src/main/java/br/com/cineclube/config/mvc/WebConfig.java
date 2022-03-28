@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import br.com.cineclube.conversor.GenderStringToEnumConverter;
+import br.com.cineclube.config.conversor.GenderStringToEnumConverter;
 
 @Configuration
 public class WebConfig implements WebMvcConfigurer{

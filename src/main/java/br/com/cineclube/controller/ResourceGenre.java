@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import br.com.cineclube.config.util.WrapperGenre;
 import br.com.cineclube.model.Genre;
-import ch.qos.logback.core.recovery.ResilientSyslogOutputStream;
 
 @Service
 public class ResourceGenre {

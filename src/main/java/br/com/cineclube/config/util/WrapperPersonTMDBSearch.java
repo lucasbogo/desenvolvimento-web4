@@ -1,5 +1,5 @@
 // Maybe this class has no function, ill check it out later when i get the homework running
-package br.com.cineclube.controller;
+package br.com.cineclube.config.util;
 
 import java.util.List;
 
