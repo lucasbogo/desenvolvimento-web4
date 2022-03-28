@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 //import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 //import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
 import br.com.cineclube.dao.FilmeRepository;
 import br.com.cineclube.model.Category;
 import br.com.cineclube.model.Filme;
@@ -27,9 +26,9 @@ import br.com.cineclube.model.Filme;
 public class FilmeController {
 
 	@Autowired
-	private FilmeRepository dao;
-	//private Object filme;
+	private FilmeRepository dao; //private Object filme;
 
+	
 	@PostMapping("/save")
 	public String save(@Valid Filme filme, BindingResult result, Model model) {
 		if (result.hasErrors()) {

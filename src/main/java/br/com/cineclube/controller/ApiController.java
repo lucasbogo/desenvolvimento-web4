@@ -93,7 +93,7 @@ public class ApiController {
 
 	//Obter um recurso com optional para tratar cenários onde o recurso não existe
 	@GetMapping("/person/{id}")
-	Optional<Person> getPerson(@PathVariable Long id) { // Ver com prof. Nome do get
+	Optional<Person> getPerson(@PathVariable Long id) { 
 		return daoPerson.findById(id);
 	}
 
@@ -125,7 +125,5 @@ public class ApiController {
 
 		return new ResponseEntity<Person>(person, HttpStatus.OK);
 
-//PUT request deve atualizar se o recurso ja existe, caso contrário, deve criá-lo.			
-
-	}
+		}
 }
